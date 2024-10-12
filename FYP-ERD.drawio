@@ -390,6 +390,24 @@
         <mxCell id="fitM7sjZ6Bzz7355s7x--55" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;passage&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Courier New;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontStyle=1;fontColor=#333333;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="733" y="545" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="fitM7sjZ6Bzz7355s7x--56" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Courier New;fontSize=12;fontColor=#333333;fontStyle=1;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" target="fitM7sjZ6Bzz7355s7x--58" source="fitM7sjZ6Bzz7355s7x--27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="668" y="573.5" as="targetPoint" />
+            <mxPoint x="665" y="536.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fitM7sjZ6Bzz7355s7x--57" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Courier New;fontSize=12;fontColor=#333333;fontStyle=1;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="fitM7sjZ6Bzz7355s7x--58" target="fitM7sjZ6Bzz7355s7x--59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="664" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fitM7sjZ6Bzz7355s7x--58" value="has" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=#666666;align=center;verticalAlign=middle;fontFamily=Courier New;fontSize=12;fontColor=#333333;fontStyle=1;fillColor=#f5f5f5;" vertex="1" parent="1">
+          <mxGeometry x="630" y="575" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fitM7sjZ6Bzz7355s7x--59" value="Question Group" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontStyle=1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="615" y="644" width="110" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
