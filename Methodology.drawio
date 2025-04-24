@@ -1,9 +1,137 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="NE2W5EPIHwt-oo_a0woZ">
-    <mxGraphModel>
+    <mxGraphModel dx="1665" dy="910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-2" value="User Input (Speech or Text)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="287" y="30" width="255" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-3" value="Preprocessing Stage" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="311" y="134" width="209" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-4" value="Speech or Text?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="238" width="169" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-5" value="Speech Preprocessing (Whisper, Librosa)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="130" y="469" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-6" value="Text Preprocessing (Spacy, Grammar Checker, Tokenization)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="457" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-7" value="Feature Extraction (Pitch, Magnitude, Fluency, Zero Crossing)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="130" y="621" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-8" value="Feature Extraction (Tokenization, TTR, Syntax, Grammar, Cohesion)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="609" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-9" value="Speech Features for Fluency, Pronunciation, and Rate of Speech" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="130" y="785" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-10" value="Text Features for Vocabulary, Grammar, and Coherence" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="785" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-11" value="Feature Analysis (Speech Band Prediction)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="130" y="937" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-12" value="Feature Analysis (Text Band Prediction)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="440" y="937" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-13" value="Band Score Prediction Model (BERT)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1065" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-14" value="Band Score Output" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="317" y="1193" width="196" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-15" value="Feedback Generation (Llama3.1 7b Fine-tuned)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1297" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-16" value="Band Score &amp; Feedback to User" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1425" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJj_9sfCxoNsjurtUpZf-2" target="LJj_9sfCxoNsjurtUpZf-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJj_9sfCxoNsjurtUpZf-3" target="LJj_9sfCxoNsjurtUpZf-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.86;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJj_9sfCxoNsjurtUpZf-4" target="LJj_9sfCxoNsjurtUpZf-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="432" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.86;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJj_9sfCxoNsjurtUpZf-4" target="LJj_9sfCxoNsjurtUpZf-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="432" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJj_9sfCxoNsjurtUpZf-5" target="LJj_9sfCxoNsjurtUpZf-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJj_9sfCxoNsjurtUpZf-6" target="LJj_9sfCxoNsjurtUpZf-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJj_9sfCxoNsjurtUpZf-7" target="LJj_9sfCxoNsjurtUpZf-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJj_9sfCxoNsjurtUpZf-8" target="LJj_9sfCxoNsjurtUpZf-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJj_9sfCxoNsjurtUpZf-9" target="LJj_9sfCxoNsjurtUpZf-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJj_9sfCxoNsjurtUpZf-10" target="LJj_9sfCxoNsjurtUpZf-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.14;entryY=0;rounded=0;" edge="1" parent="1" source="LJj_9sfCxoNsjurtUpZf-11" target="LJj_9sfCxoNsjurtUpZf-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.86;entryY=0;rounded=0;" edge="1" parent="1" source="LJj_9sfCxoNsjurtUpZf-12" target="LJj_9sfCxoNsjurtUpZf-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="LJj_9sfCxoNsjurtUpZf-13" target="LJj_9sfCxoNsjurtUpZf-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJj_9sfCxoNsjurtUpZf-14" target="LJj_9sfCxoNsjurtUpZf-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJj_9sfCxoNsjurtUpZf-31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJj_9sfCxoNsjurtUpZf-15" target="LJj_9sfCxoNsjurtUpZf-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
